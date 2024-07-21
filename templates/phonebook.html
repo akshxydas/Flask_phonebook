@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phonebook</title>
+</head>
+<body>
+    <h1>Phonebook</h1>
+    <form method="POST" action="/">
+        NAME<input type="text" id="Name"  placeholder="your name"><br><br>
+        NO.<input type="text" id="Phonenumber" required><br><br>
+        <input type="submit" value="Add to Phonebook">
+    </form>
+    <hr>
+    <h2>Search for a Phone Number</h2>
+    <form method="GET" action="/resultpage">
+        <label for="SearchName">Name:</label>
+        <input type="text" id="SearchName" name="Name" required><br><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
